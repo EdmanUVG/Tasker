@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="360dp"
+    android:orientation="vertical"
+    app:layout_behavior="com.google.android.material.BottomSheet">
+
+
+    <LinearLayout
+        android:id="@+id/sortTitle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/sort_by_text"
+            android:textColor="@color/primary_text_color"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/filterGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/filterCustom"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/filter_custom_text"
+            android:textColor="@color/primary_text_color"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/filterPriority"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/priority_text"
+            android:textColor="@color/primary_text_color"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/filterDate"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/filter_date_text"
+            android:textColor="@color/primary_text_color"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/filterProject"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/filter_project_text"
+            android:textColor="@color/primary_text_color"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/filterTag"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/filter_tag_text"
+            android:textColor="@color/primary_text_color"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"/>
+
+    </RadioGroup>
+</LinearLayout>

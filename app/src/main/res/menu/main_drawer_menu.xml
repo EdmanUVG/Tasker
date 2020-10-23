@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_today"
+            android:icon="@drawable/ic_baseline_calendar_today"
+            android:title="@string/today_text"/>
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_round_inbox"
+            android:title="@string/inbox_text"/>
+
+        <item
+            android:id="@+id/nav_overview"
+            android:icon="@drawable/ic_sharp_pie_chart"
+            android:title="@string/overview_text"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lists"
+            android:title="@string/text_settings"/>
+        <item
+            android:id="@+id/nav_edman"
+            android:icon="@drawable/ic_baseline_flag"
+            android:title="Edman's list"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings"
+            android:title="@string/text_settings"/>
+    </group>
+</menu>

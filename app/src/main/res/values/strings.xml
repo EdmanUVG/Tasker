@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Tasker</string>
+
+    <string name="add_new_task_text"><font size="17">Add a new task</font></string>
+    <string name="new_tag_text"><font size="17">New Tag</font></string>
+    <string name="add_tag_text">Add Tag</string>
+    <string name="add_subtask_text">Add a subtask</string>
+
+    <string name="save_text">Save</string>
+    <string name="task_required_text">Task required</string>
+    <string name="icon_description_text">Icon description</string>
+
+    <string name="upgrade_to_premium_text">Upgrade to Premium</string>
+    <string name="about_text">About</string>
+    <string name="choose_theme_text">Choose theme</string>
+    <string name="theme_text">Theme</string>
+    <string name="light_them_text">Light</string>
+    <string name="dark_theme_text">Dark</string>
+    <string name="by_system_theme_text">Set by system</string>
+    <string name="select_theme_text">Choose theme</string>
+
+    <string name="text_settings">Settings</string>
+    <string name="sort_text">Sort</string>
+    <string name="switch_view_text">Switch View</string>
+    <string name="print_text">Print</string>
+    <string name="list_view_text">List View</string>
+    <string name="kanban_view_text">Kanban View</string>
+
+    <string name="app_name_text">Tasker</string>
+    <string name="app_version_text">Version: 1.0.0</string>
+    <string name="official_website_text">Official Website</string>
+    <string name="official_website_url_text">www.tasker.com</string>
+    <string name="rate_our_app_text">Rate Out App</string>
+    <string name="legal_text">Legal</string>
+    <string name="terms_of_service_text">Terms of Service</string>
+    <string name="privacy_policy_text">Privacy Policy</string>
+    <string name="acknowledgements_text">Acknowledgements</string>
+
+    <string name="today_text">Today</string>
+    <string name="inbox_text">Inbox</string>
+    <string name="overview_text">Overview</string>
+    <string name="lists_text">Lists</string>
+    <string name="tags_text">Tags</string>
+    <string name="settings_text">Settings</string>
+
+
+    <string name="filter_custom_text">Custom</string>
+    <string name="filter_date_text">Date</string>
+    <string name="filter_project_text">Project</string>
+    <string name="filter_tag_text">Tag</string>
+    <string name="sort_by_text">Sort by</string>
+
+    <string name="urgent_text">Urgent</string>
+    <string name="high_text">High</string>
+    <string name="medium_text">Medium</string>
+    <string name="low_text">Low</string>
+    <string name="priority_text">Priority</string>
+
+    <string name="delete_task_text">Delete task</string>
+    <string name="complete_task_text">Complete</string>
+    <string name="move_tasK_text">Move task</string>
+    <string name="duplicate_task_text">Duplicate task</string>
+    <string name="task_activity_text">Task activity</string>
+    <string name="share_text">Share</string>
+    <string name="add_member_text">Add member</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
